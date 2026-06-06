@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Demo User",
+      "email": "demo@demo.com",
+      "password": "123456"
+    }
+  ],
+  "movies": [
+    {
+      "id": "m1",
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "year": 2014,
+      "rating": 9.1,
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "m2",
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "year": 2008,
+      "rating": 9.0,
+      "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into chaos.",
+      "image": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "id": "m3",
+      "title": "Inception",
+      "genre": "Thriller",
+      "year": 2010,
+      "rating": 8.8,
+      "description": "A skilled thief enters dreams to steal secrets and gets one chance to have his criminal history erased.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "movieId": "m1",
+      "userEmail": "demo@demo.com",
+      "comment": "Great visuals and emotional story.",
+      "score": 10
+    }
+  ]
+}
