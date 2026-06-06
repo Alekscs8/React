@@ -97,3 +97,4 @@ git push -u origin main
 ```
 
 Do not upload `node_modules`.
+This is a React course project with routing, authentication, forms, hooks and REST API requests.
