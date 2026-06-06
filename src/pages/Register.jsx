@@ -26,7 +26,7 @@ export default function Register() {
 
   return (
     <section className="auth-card">
-      <h1>Register</h1>
+      <h1>Регистрация</h1>
       {error && <p className="form-error">{error}</p>}
       <form onSubmit={handleSubmit}>
         <label>
@@ -43,7 +43,7 @@ export default function Register() {
         </label>
         <button type="submit" className="button full">Create account</button>
       </form>
-      <p className="muted">Already registered? <Link to="/login">Login</Link></p>
+      <p className="muted">Имаш регистрация? <Link to="/login">Login</Link></p>
     </section>
   );
 }

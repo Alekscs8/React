@@ -84,7 +84,7 @@ nav a.active, nav a:hover, .link-button:hover {
   place-items: center;
   padding: 48px;
   border: 1px solid var(--border);
-  border-radius: 28px;
+  border-radius: 29px;
   background:
     linear-gradient(90deg, rgba(13,19,33,.92), rgba(13,19,33,.45)),
     url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1400&q=80') center/cover;
