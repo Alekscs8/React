@@ -41,7 +41,7 @@ export default function MovieDetails() {
     <section className="details-layout">
       <img className="details-image" src={movie.image} alt={movie.title} />
       <div className="details-content">
-        <Link to="/" className="back-link">← Back to movies</Link>
+        <Link to="/" className="back-link">← Върни се към филмите</Link>
         <span className="badge">{movie.genre}</span>
         <h1>{movie.title}</h1>
         <p className="muted">{movie.year} · Rating: ★ {movie.rating}</p>

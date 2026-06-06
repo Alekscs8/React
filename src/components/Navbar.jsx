@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="navbar">
       <Link to="/" className="brand">CineHub</Link>
       <nav>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Начало</NavLink>
         {isAuthenticated && <NavLink to="/add">Add Movie</NavLink>}
         {!isAuthenticated && <NavLink to="/login">Login</NavLink>}
         {!isAuthenticated && <NavLink to="/register">Register</NavLink>}

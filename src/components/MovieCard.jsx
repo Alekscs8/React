@@ -12,7 +12,7 @@ export default function MovieCard({ movie }) {
           <span>{movie.year}</span>
           <strong>★ {movie.rating}</strong>
         </div>
-        <Link to={`/movies/${movie.id}`} className="button">Details</Link>
+        <Link to={`/movies/${movie.id}`} className="button">Детайли</Link>
       </div>
     </article>
   );

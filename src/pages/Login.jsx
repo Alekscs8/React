@@ -26,7 +26,7 @@ export default function Login() {
 
   return (
     <section className="auth-card">
-      <h1>Login</h1>
+      <h1>Вход</h1>
       <p className="muted">Demo account: demo@demo.com / 123456</p>
       {error && <p className="form-error">{error}</p>}
       <form onSubmit={handleSubmit}>
@@ -40,7 +40,7 @@ export default function Login() {
         </label>
         <button type="submit" className="button full">Login</button>
       </form>
-      <p className="muted">No profile yet? <Link to="/register">Create account</Link></p>
+      <p className="muted">Нямаш профил? <Link to="/register">Създай акаунт</Link></p>
     </section>
   );
 }

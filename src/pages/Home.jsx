@@ -9,21 +9,20 @@ export default function Home() {
     <>
       <section className="hero">
         <div>
-          <p className="eyebrow">React course project</p>
-          <h1>Discover, review and save your favorite movies.</h1>
+          <p className="eyebrow">React проект</p>
+          <h1>Открий, оцени и запази любимите си филми.</h1>
           <p>
-            CineHub is a small REST API React application with routing, forms,
-            authentication, reusable components and custom hooks.
+            Проект по РЕАКТ на Александър Димитров 361ср
           </p>
         </div>
       </section>
 
       <section className="section-title">
-        <h2>Movie Collection</h2>
-        <p>Dynamically rendered from the REST API database.</p>
+        <h2>Колекция от филми</h2>
+        <p></p>
       </section>
 
-      {loading && <p className="status">Loading movies...</p>}
+      {loading && <p className="status">Зареждане на филми...</p>}
       {error && <p className="status error">{error}</p>}
       {movies && (
         <div className="grid">
